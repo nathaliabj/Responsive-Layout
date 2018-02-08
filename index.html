@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Quicksand" rel="stylesheet">
+  </head>
+  <body>
+   <header class="main-header">
+     <div class="navigation clearfix">
+         <h1 class="main-name">Nathalia Buitrago Jurado</h1>
+         <nav>
+               <ul class="main-nav">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#portfolio">Portfolio</a></li>
+                 <li><a href="#skills">Skills</a></li>
+                 <li><a href="#contact" class="contact">Contact</a></li>
+               </ul>
+          </nav>
+    </div>
+          <div class="intro clearfix">
+            <img src="images/nathaliabj.jpg" alt="Nathalia buitrago Jurado" class="profile-img"/>
+
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web developement at Treehouse and am excited to put all my skills to use!</p>
+          </div>
+   </header>
+
+<section id="portfolio"> <!--- First section starts -->
+
+  <h2> Portfolio </h2>
+
+  <div  class="portfolio">
+
+    <div class="flex-1 flex">
+       <img src="images/portfolio-1.png" alt="" />
+       <h3> Marketing Page </h3>
+       <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+    </div>
+
+    <div class="flex-2 flex">
+       <img src="images/portfolio-2.png" alt="" />
+       <h3> Search Page </h3>
+       <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+    </div>
+
+    <div class="flex-3 flex">
+       <img src="images/portfolio-3.png" alt="" />
+       <h3> Travel App </h3>
+       <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+    </div>
+
+    <div class="flex-4 flex">
+       <img src="images/portfolio-4.png" alt="" />
+       <h3> Map of Favorite Sports </h3>
+       <p>This project uses mapping apis to plot points for my favorite sports in the city for a do-it-yourself walking tour.</p>
+    </div>
+
+    <div class="flex-5 flex">
+       <img src="images/portfolio-5.png" alt="" />
+       <h3> Photo Gallery </h3>
+       <p>This project shows pictures from a recent trip to the wiewer and allows them to easily navigate through photos.</p>
+    </div>
+
+    <div class="flex-6 flex">
+       <img src="images/portfolio-6.png" alt="" />
+       <h3> Calculator </h3>
+       <p>Someone can enter in the numbers they want, and press the big blue  button and get the result.</p>
+    </div>
+  </div>
+</section> <!--- First section ends -->
+
+<section id="skills"> <!--- Second section starts -->
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Sketch</li>
+    <li>React</li>
+  </ul>
+</section> <!--- second section ends -->
+
+<section id="contact" class="third-sec"> <!--- Third section starts -->
+
+    <h2> Contact </h2>
+
+    <p class="contact">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you! </p>
+
+      <ul>
+        <li>Phone:<a href="tel:+1(111)555-1234">+1 (111) 555 - 1234</a></li>
+        <li>Email:<a href="mailto:email@yoursite.com">email@yoursite.com</a></li>
+      </ul>
+
+
+  <footer>
+     <hr>
+      <div class="mobile-footer clearfix"> <!-- Mobile screen footer -->
+        <nav>
+          <ul>
+            <li class="footer-name">Nathalia Buitrago Jurado</li>
+            <li class="back-to-top"><a href="#" class="back-to-top">Back to top &uarr;</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer clearfix"> <!--- Larger screens footer -->
+        <nav>
+          <ul>
+            <li class="footer-name2">Nathalia Buitrago Jurado</li>
+            <li class="nav2"><a href="#contact" class="nav2">Contact</a></li>
+            <li class="nav2"><a href="#Skills" class="nav2">Skills</a></li>
+            <li class="nav2"><a href="#portfolio" class="nav2">Portfolio</a></li>
+            <li class="nav2"><a href="#" class="nav2">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+  </footer>
+</section> <!--- Third section ends  -->
+  </body>
+</html>
